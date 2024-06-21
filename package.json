@@ -1,0 +1,17 @@
+{
+  "name": "send-btc-simplified",
+  "version": "1.0.0",
+  "description": "Simplified functions to transfer bitcoin ( not touching inscriptions ), running on node.js runtime",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.6",
+    "ecpair": "^2.1.0",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
